@@ -1,0 +1,11 @@
+{
+    "app": "",
+    "home": "/home",
+    
+    "error404": "/error404",
+    "error500": "/error500",
+    "netwrokError": "/network-error",
+  
+    "login": "/login"
+  }
+  

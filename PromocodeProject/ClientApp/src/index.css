@@ -1,0 +1,83 @@
+body {
+    background-color: #e9edef;
+}
+
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+}
+
+p {
+    color: #948c8c;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.Navbar {
+    padding-top: 10px;
+}
+
+.navText {
+    position: relative;
+}
+
+.navText h3 {
+    position: absolute;
+}
+
+.navText p {
+    position: absolute;
+    top: 0;
+}
+
+input {
+    padding: 20px 10px !important;
+    border-radius: 5px !important;
+    min-width: 250px;
+}
+
+.reset {
+    padding: 10px !important;
+    min-width: 120px;
+    background: transparent !important;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid #e6e4e4;
+}
+
+h1.card-title {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.activate-btn {
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    min-width: 250px;
+    color: #fff;
+    background: #3386fb;
+}
+
+.card .form-inline {
+    width: 250px;
+    margin-left: auto;
+    color: #3386fb;
+}
+
+.card .form-inline .form-group {
+    position: absolute;
+}
+
+span.glyphicon.glyphicon-copy {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}

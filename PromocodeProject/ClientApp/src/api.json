@@ -1,0 +1,11 @@
+{
+    "baseUrl": "https://localhost:44392",
+    
+    "jwtTokenControllerUrl": "/api/JwtToken",
+    "loginUrl": "/login",
+
+    "promoControllerUrl": "/api/promo",
+    "getAllPromoUrl": "/GetAll",
+    "togglePromoActivationUrl":"/ActivateDeactivate"
+  }
+  
